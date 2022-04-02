@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A88539A827F4821C00D34EB5 /* Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A88539A727F481FA00D34EB5 /* Gilroy-ExtraBold.otf */; };
+		A88539A927F4822300D34EB5 /* Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A88539A627F481FA00D34EB5 /* Gilroy-Light.otf */; };
+		A88539AB27F4864C00D34EB5 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A88539AA27F4864C00D34EB5 /* Gilroy-SemiBold.ttf */; };
+		A88539AD27F487F400D34EB5 /* screen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88539AC27F487F400D34EB5 /* screen2ViewController.swift */; };
+		A88539B027F4975300D34EB5 /* UIButtonEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88539AF27F4975300D34EB5 /* UIButtonEx.swift */; };
+		A899417427F458C800F0B92C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899417327F458C800F0B92C /* AppDelegate.swift */; };
+		A899417627F458C800F0B92C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899417527F458C800F0B92C /* SceneDelegate.swift */; };
+		A899417827F458C800F0B92C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899417727F458C800F0B92C /* ViewController.swift */; };
+		A899417D27F458C900F0B92C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A899417C27F458C900F0B92C /* Assets.xcassets */; };
+		A899418027F458C900F0B92C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A899417E27F458C900F0B92C /* LaunchScreen.storyboard */; };
+		A899418B27F458C900F0B92C /* NectarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899418A27F458C900F0B92C /* NectarTests.swift */; };
+		A899419527F458C900F0B92C /* NectarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899419427F458C900F0B92C /* NectarUITests.swift */; };
+		A899419727F458C900F0B92C /* NectarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899419627F458C900F0B92C /* NectarUITestsLaunchTests.swift */; };
+		A8E641B827F51221000D4636 /* UiViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E641B727F51221000D4636 /* UiViewEx.swift */; };
+		A8E641BA27F51954000D4636 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8E641B927F51954000D4636 /* Gilroy-Medium.ttf */; };
+		A8EE92F627F6A312001C8D2F /* UITextFieldEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE92F527F6A312001C8D2F /* UITextFieldEx.swift */; };
+		A8F0662E27F4755B00379F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F0662C27F4755B00379F34 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A899418727F458C900F0B92C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A899416827F458C800F0B92C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A899416F27F458C800F0B92C;
+			remoteInfo = Nectar;
+		};
+		A899419127F458C900F0B92C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A899416827F458C800F0B92C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A899416F27F458C800F0B92C;
+			remoteInfo = Nectar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A88539A627F481FA00D34EB5 /* Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Light.otf"; path = "../../../../Downloads/Gilroy-FREE/Gilroy-Light.otf"; sourceTree = "<group>"; };
+		A88539A727F481FA00D34EB5 /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-ExtraBold.otf"; path = "../../../../Downloads/Gilroy-FREE/Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
+		A88539AA27F4864C00D34EB5 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-SemiBold.ttf"; path = "../../../../Downloads/gilroy/Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		A88539AC27F487F400D34EB5 /* screen2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen2ViewController.swift; sourceTree = "<group>"; };
+		A88539AF27F4975300D34EB5 /* UIButtonEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonEx.swift; sourceTree = "<group>"; };
+		A899417027F458C800F0B92C /* Nectar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nectar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A899417327F458C800F0B92C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A899417527F458C800F0B92C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A899417727F458C800F0B92C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A899417C27F458C900F0B92C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A899417F27F458C900F0B92C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A899418127F458C900F0B92C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A899418627F458C900F0B92C /* NectarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NectarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A899418A27F458C900F0B92C /* NectarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NectarTests.swift; sourceTree = "<group>"; };
+		A899419027F458C900F0B92C /* NectarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NectarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A899419427F458C900F0B92C /* NectarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NectarUITests.swift; sourceTree = "<group>"; };
+		A899419627F458C900F0B92C /* NectarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NectarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8E641B727F51221000D4636 /* UiViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewEx.swift; sourceTree = "<group>"; };
+		A8E641B927F51954000D4636 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Medium.ttf"; path = "../../../../Downloads/gilroy/Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		A8EE92F527F6A312001C8D2F /* UITextFieldEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldEx.swift; sourceTree = "<group>"; };
+		A8F0662D27F4755B00379F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A899416D27F458C800F0B92C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A899418327F458C900F0B92C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A899418D27F458C900F0B92C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A88539A527F481BE00D34EB5 /* customFonts */ = {
+			isa = PBXGroup;
+			children = (
+				A88539A727F481FA00D34EB5 /* Gilroy-ExtraBold.otf */,
+				A8E641B927F51954000D4636 /* Gilroy-Medium.ttf */,
+				A88539AA27F4864C00D34EB5 /* Gilroy-SemiBold.ttf */,
+				A88539A627F481FA00D34EB5 /* Gilroy-Light.otf */,
+			);
+			path = customFonts;
+			sourceTree = "<group>";
+		};
+		A88539AE27F495DA00D34EB5 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A88539AF27F4975300D34EB5 /* UIButtonEx.swift */,
+				A8E641B727F51221000D4636 /* UiViewEx.swift */,
+				A8EE92F527F6A312001C8D2F /* UITextFieldEx.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		A899416727F458C800F0B92C = {
+			isa = PBXGroup;
+			children = (
+				A88539AE27F495DA00D34EB5 /* utilities */,
+				A899417227F458C800F0B92C /* Nectar */,
+				A899418927F458C900F0B92C /* NectarTests */,
+				A899419327F458C900F0B92C /* NectarUITests */,
+				A899417127F458C800F0B92C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A899417127F458C800F0B92C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A899417027F458C800F0B92C /* Nectar.app */,
+				A899418627F458C900F0B92C /* NectarTests.xctest */,
+				A899419027F458C900F0B92C /* NectarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A899417227F458C800F0B92C /* Nectar */ = {
+			isa = PBXGroup;
+			children = (
+				A88539A527F481BE00D34EB5 /* customFonts */,
+				A8F0662C27F4755B00379F34 /* Main.storyboard */,
+				A899417327F458C800F0B92C /* AppDelegate.swift */,
+				A899417527F458C800F0B92C /* SceneDelegate.swift */,
+				A899417727F458C800F0B92C /* ViewController.swift */,
+				A899417C27F458C900F0B92C /* Assets.xcassets */,
+				A899417E27F458C900F0B92C /* LaunchScreen.storyboard */,
+				A899418127F458C900F0B92C /* Info.plist */,
+				A88539AC27F487F400D34EB5 /* screen2ViewController.swift */,
+			);
+			path = Nectar;
+			sourceTree = "<group>";
+		};
+		A899418927F458C900F0B92C /* NectarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A899418A27F458C900F0B92C /* NectarTests.swift */,
+			);
+			path = NectarTests;
+			sourceTree = "<group>";
+		};
+		A899419327F458C900F0B92C /* NectarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A899419427F458C900F0B92C /* NectarUITests.swift */,
+				A899419627F458C900F0B92C /* NectarUITestsLaunchTests.swift */,
+			);
+			path = NectarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A899416F27F458C800F0B92C /* Nectar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A899419A27F458C900F0B92C /* Build configuration list for PBXNativeTarget "Nectar" */;
+			buildPhases = (
+				A899416C27F458C800F0B92C /* Sources */,
+				A899416D27F458C800F0B92C /* Frameworks */,
+				A899416E27F458C800F0B92C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nectar;
+			productName = Nectar;
+			productReference = A899417027F458C800F0B92C /* Nectar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A899418527F458C900F0B92C /* NectarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A899419D27F458C900F0B92C /* Build configuration list for PBXNativeTarget "NectarTests" */;
+			buildPhases = (
+				A899418227F458C900F0B92C /* Sources */,
+				A899418327F458C900F0B92C /* Frameworks */,
+				A899418427F458C900F0B92C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A899418827F458C900F0B92C /* PBXTargetDependency */,
+			);
+			name = NectarTests;
+			productName = NectarTests;
+			productReference = A899418627F458C900F0B92C /* NectarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A899418F27F458C900F0B92C /* NectarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89941A027F458C900F0B92C /* Build configuration list for PBXNativeTarget "NectarUITests" */;
+			buildPhases = (
+				A899418C27F458C900F0B92C /* Sources */,
+				A899418D27F458C900F0B92C /* Frameworks */,
+				A899418E27F458C900F0B92C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A899419227F458C900F0B92C /* PBXTargetDependency */,
+			);
+			name = NectarUITests;
+			productName = NectarUITests;
+			productReference = A899419027F458C900F0B92C /* NectarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A899416827F458C800F0B92C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A899416F27F458C800F0B92C = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					A899418527F458C900F0B92C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A899416F27F458C800F0B92C;
+					};
+					A899418F27F458C900F0B92C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A899416F27F458C800F0B92C;
+					};
+				};
+			};
+			buildConfigurationList = A899416B27F458C800F0B92C /* Build configuration list for PBXProject "Nectar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A899416727F458C800F0B92C;
+			productRefGroup = A899417127F458C800F0B92C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A899416F27F458C800F0B92C /* Nectar */,
+				A899418527F458C900F0B92C /* NectarTests */,
+				A899418F27F458C900F0B92C /* NectarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A899416E27F458C800F0B92C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F0662E27F4755B00379F34 /* Main.storyboard in Resources */,
+				A8E641BA27F51954000D4636 /* Gilroy-Medium.ttf in Resources */,
+				A88539AB27F4864C00D34EB5 /* Gilroy-SemiBold.ttf in Resources */,
+				A899418027F458C900F0B92C /* LaunchScreen.storyboard in Resources */,
+				A899417D27F458C900F0B92C /* Assets.xcassets in Resources */,
+				A88539A927F4822300D34EB5 /* Gilroy-Light.otf in Resources */,
+				A88539A827F4821C00D34EB5 /* Gilroy-ExtraBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A899418427F458C900F0B92C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A899418E27F458C900F0B92C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A899416C27F458C800F0B92C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A899417827F458C800F0B92C /* ViewController.swift in Sources */,
+				A88539B027F4975300D34EB5 /* UIButtonEx.swift in Sources */,
+				A8EE92F627F6A312001C8D2F /* UITextFieldEx.swift in Sources */,
+				A899417427F458C800F0B92C /* AppDelegate.swift in Sources */,
+				A8E641B827F51221000D4636 /* UiViewEx.swift in Sources */,
+				A899417627F458C800F0B92C /* SceneDelegate.swift in Sources */,
+				A88539AD27F487F400D34EB5 /* screen2ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A899418227F458C900F0B92C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A899418B27F458C900F0B92C /* NectarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A899418C27F458C900F0B92C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A899419527F458C900F0B92C /* NectarUITests.swift in Sources */,
+				A899419727F458C900F0B92C /* NectarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A899418827F458C900F0B92C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A899416F27F458C800F0B92C /* Nectar */;
+			targetProxy = A899418727F458C900F0B92C /* PBXContainerItemProxy */;
+		};
+		A899419227F458C900F0B92C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A899416F27F458C800F0B92C /* Nectar */;
+			targetProxy = A899419127F458C900F0B92C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A899417E27F458C900F0B92C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A899417F27F458C900F0B92C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A8F0662C27F4755B00379F34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F0662D27F4755B00379F34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A899419827F458C900F0B92C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A899419927F458C900F0B92C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A899419B27F458C900F0B92C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nectar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elli0t.Nectar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A899419C27F458C900F0B92C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nectar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elli0t.Nectar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A899419E27F458C900F0B92C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elli0t.NectarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nectar.app/Nectar";
+			};
+			name = Debug;
+		};
+		A899419F27F458C900F0B92C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elli0t.NectarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nectar.app/Nectar";
+			};
+			name = Release;
+		};
+		A89941A127F458C900F0B92C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elli0t.NectarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nectar;
+			};
+			name = Debug;
+		};
+		A89941A227F458C900F0B92C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elli0t.NectarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nectar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A899416B27F458C800F0B92C /* Build configuration list for PBXProject "Nectar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A899419827F458C900F0B92C /* Debug */,
+				A899419927F458C900F0B92C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A899419A27F458C900F0B92C /* Build configuration list for PBXNativeTarget "Nectar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A899419B27F458C900F0B92C /* Debug */,
+				A899419C27F458C900F0B92C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A899419D27F458C900F0B92C /* Build configuration list for PBXNativeTarget "NectarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A899419E27F458C900F0B92C /* Debug */,
+				A899419F27F458C900F0B92C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89941A027F458C900F0B92C /* Build configuration list for PBXNativeTarget "NectarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89941A127F458C900F0B92C /* Debug */,
+				A89941A227F458C900F0B92C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A899416827F458C800F0B92C /* Project object */;
+}
