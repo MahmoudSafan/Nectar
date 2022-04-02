@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AjS-iV-WeD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XdN-bK-KuH">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -684,6 +684,179 @@ what’s happening in your area</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Trw-Vy-p1j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4867" y="123"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Vij-CO-YwH">
+            <objects>
+                <viewController id="XdN-bK-KuH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LAp-D1-WYH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backRectngle" translatesAutoresizingMaskIntoConstraints="NO" id="Rzc-yy-NuR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="302"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="downBackground" translatesAutoresizingMaskIntoConstraints="NO" id="b33-Q0-0pc">
+                                <rect key="frame" x="0.0" y="594" width="414" height="302"/>
+                                <color key="backgroundColor" red="0.8862745098" green="0.8862745098" blue="0.8862745098" alpha="0.55406663909999998" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="orangeCarrot" translatesAutoresizingMaskIntoConstraints="NO" id="vZY-SD-5H5">
+                                <rect key="frame" x="183" y="77.5" width="48" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="KHu-DT-RtF"/>
+                                    <constraint firstAttribute="height" constant="56" id="xZu-1i-R4w"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="B6R-Za-YLN" userLabel="loggingStack">
+                                <rect key="frame" x="25" y="233" width="247" height="57"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03b-YV-c2c">
+                                        <rect key="frame" x="0.0" y="0.0" width="92.5" height="26"/>
+                                        <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy-SemiBold" pointSize="26"/>
+                                        <color key="textColor" red="0.094117647060000004" green="0.090196078430000007" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your credentials to continue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TnL-hx-FfN">
+                                        <rect key="frame" x="0.0" y="41" width="247" height="16"/>
+                                        <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="16"/>
+                                        <color key="textColor" red="0.48627450979999998" green="0.48627450979999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYn-eT-3wl">
+                                <rect key="frame" x="26" y="704" width="351.5" height="67.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.42352938649999999" green="0.68627452850000004" blue="0.48235297199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="1" green="0.97647058819999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sing Up">
+                                    <fontDescription key="titleFontDescription" name="Gilroy-SemiBold" family="Gilroy-SemiBold" pointSize="18"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="19"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Bfq-wv-37m" userLabel="nameStack">
+                                <rect key="frame" x="20" y="341" width="74.5" height="58"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rb0-qO-HIT">
+                                        <rect key="frame" x="0.0" y="0.0" width="74.5" height="16"/>
+                                        <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy-SemiBold" pointSize="16"/>
+                                        <color key="textColor" red="0.094117647060000004" green="0.090196078430000007" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fyp-eQ-HBx">
+                                        <rect key="frame" x="0.0" y="24" width="32" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fc3-2I-rS8">
+                                <rect key="frame" x="20" y="407" width="374" height="11"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8862745098" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="x0K-wg-6yl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Rzc-yy-NuR" firstAttribute="height" secondItem="LAp-D1-WYH" secondAttribute="height" multiplier="0.3371" id="285-Ks-sFH"/>
+                            <constraint firstItem="x0K-wg-6yl" firstAttribute="trailing" secondItem="Rzc-yy-NuR" secondAttribute="trailing" id="6vw-kC-c7x"/>
+                            <constraint firstItem="x0K-wg-6yl" firstAttribute="leading" secondItem="b33-Q0-0pc" secondAttribute="leading" id="8fF-h5-o4d"/>
+                            <constraint firstAttribute="bottom" secondItem="b33-Q0-0pc" secondAttribute="bottom" id="Ab0-3Z-bdG"/>
+                            <constraint firstItem="x0K-wg-6yl" firstAttribute="trailing" secondItem="b33-Q0-0pc" secondAttribute="trailing" id="CDA-oM-LpQ"/>
+                            <constraint firstItem="Rzc-yy-NuR" firstAttribute="top" secondItem="LAp-D1-WYH" secondAttribute="top" id="DV6-Jn-95X"/>
+                            <constraint firstItem="vZY-SD-5H5" firstAttribute="centerX" secondItem="LAp-D1-WYH" secondAttribute="centerX" id="IwN-Nd-leH"/>
+                            <constraint firstItem="Rzc-yy-NuR" firstAttribute="width" secondItem="LAp-D1-WYH" secondAttribute="width" id="XDE-4O-DC2"/>
+                            <constraint firstItem="Rzc-yy-NuR" firstAttribute="leading" secondItem="x0K-wg-6yl" secondAttribute="leading" id="YgS-7Y-4N9"/>
+                            <constraint firstItem="b33-Q0-0pc" firstAttribute="height" secondItem="Rzc-yy-NuR" secondAttribute="height" id="k7t-pR-v7X"/>
+                            <constraint firstItem="B6R-Za-YLN" firstAttribute="leading" secondItem="LAp-D1-WYH" secondAttribute="leading" constant="25.18" id="knO-59-BF1"/>
+                            <constraint firstItem="B6R-Za-YLN" firstAttribute="top" secondItem="LAp-D1-WYH" secondAttribute="top" constant="233" id="ldT-PO-yt4"/>
+                            <constraint firstItem="vZY-SD-5H5" firstAttribute="top" secondItem="LAp-D1-WYH" secondAttribute="top" constant="77.25" id="m8J-GM-PJv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ax6-hL-Mkr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" id="c0s-GI-wEC" userLabel="emailStack">
+                    <rect key="frame" x="0.0" y="0.0" width="351.5" height="56.5"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eD-5d-jan">
+                            <rect key="frame" x="0.0" y="0.0" width="40" height="16"/>
+                            <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy-SemiBold" pointSize="16"/>
+                            <color key="textColor" red="0.48627450979999998" green="0.48627450979999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="nOO-pb-XIA" userLabel="emailTextField">
+                            <rect key="frame" x="0.0" y="26" width="351.5" height="19.5"/>
+                            <color key="textColor" red="0.094117647060000004" green="0.090196078430000007" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="18"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="email"/>
+                        </textField>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cO1-Ba-y9X" userLabel="line1">
+                            <rect key="frame" x="0.0" y="55.5" width="351.5" height="1"/>
+                            <color key="backgroundColor" red="0.8862745098" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="gGq-5F-NlY"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="rXs-0W-IEp"/>
+                    <constraints>
+                        <constraint firstItem="nOO-pb-XIA" firstAttribute="width" secondItem="c0s-GI-wEC" secondAttribute="width" id="kzE-mt-9Nt"/>
+                        <constraint firstItem="cO1-Ba-y9X" firstAttribute="width" secondItem="c0s-GI-wEC" secondAttribute="width" id="rY6-7X-Jzy"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" id="bwI-3F-BQn" userLabel="nameStack">
+                    <rect key="frame" x="0.0" y="0.0" width="351.5" height="56.5"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8f-NN-c4s">
+                            <rect key="frame" x="0.0" y="0.0" width="40" height="16"/>
+                            <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy-SemiBold" pointSize="16"/>
+                            <color key="textColor" red="0.48627450979999998" green="0.48627450979999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="blz-XG-EPm" userLabel="emailTextField">
+                            <rect key="frame" x="0.0" y="26" width="5" height="19.5"/>
+                            <color key="textColor" red="0.094117647060000004" green="0.090196078430000007" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="18"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="email"/>
+                        </textField>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c9U-zW-7ob" userLabel="line1">
+                            <rect key="frame" x="0.0" y="55.5" width="351.5" height="1"/>
+                            <color key="backgroundColor" red="0.8862745098" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="OHc-II-GFH"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="uVU-JL-tO6"/>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" id="amd-s7-Jt5" userLabel="nameStack">
+                    <rect key="frame" x="0.0" y="0.0" width="74.5" height="58"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3H-mZ-S3K">
+                            <rect key="frame" x="0.0" y="0.0" width="74.5" height="16"/>
+                            <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy-SemiBold" pointSize="16"/>
+                            <color key="textColor" red="0.094117647060000004" green="0.090196078430000007" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BFr-yE-Dfb">
+                            <rect key="frame" x="0.0" y="24" width="32" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="fkb-Ff-yHB"/>
+                </stackView>
+            </objects>
+            <point key="canvasLocation" x="5821.739130434783" y="116.51785714285714"/>
         </scene>
     </scenes>
     <resources>
